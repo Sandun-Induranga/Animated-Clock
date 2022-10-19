@@ -18,7 +18,8 @@ main{
     width: 400px;
     height: 400px;
     border-radius: 100%;
-    box-shadow: 0 0 5px #344966, inset 0 0 20px #344966;
+    box-shadow: 0 0 5px #344966;
+    /*box-shadow: 0 0 5px #344966, inset 0 0 20px #344966;*/
 }
 
 main::before{
@@ -92,4 +93,8 @@ body>aside{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /*box-shadow: 0 0 5px #344966;*/
+    box-shadow: 0 0 5px #344966, inset 0 0 20px #344966;
+    border-radius: 400px 400px 50px 50px;
+    padding: 20px;
 }
