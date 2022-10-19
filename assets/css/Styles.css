@@ -3,6 +3,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 97.5vw;
     height: 97.5vh;
 }
@@ -74,4 +77,9 @@ div{
     height: 150px;
     background: white;
     border-radius: 6px 6px 0 0;
+}
+
+p{
+    color: #8d99ae;
+    font-size: 2.5em;
 }
