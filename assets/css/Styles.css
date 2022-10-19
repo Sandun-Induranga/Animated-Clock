@@ -23,6 +23,7 @@ main::before{
     width: 15px;
     height: 15px;
     border-radius: 100%;
+    z-index: 50;
 }
 
 section{
@@ -48,11 +49,29 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 .hour::before{
     content: "";
     width: 8px;
     height: 80px;
-    background: deeppink;
+    background: #d90429;
+    border-radius: 6px 6px 0 0;
+}
+
+.min::before{
+    content: "";
+    width: 4px;
+    height: 90px;
+    background: white;
+    border-radius: 6px 6px 0 0;
+}
+
+.sec::before{
+    content: "";
+    width: 2px;
+    height: 150px;
+    background: white;
+    border-radius: 6px 6px 0 0;
 }
