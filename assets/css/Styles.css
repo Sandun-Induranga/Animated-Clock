@@ -34,12 +34,25 @@ section:nth-child(1){
     height: 160px;
 }
 
-section:nth-child(1){
+section:nth-child(2){
     width: 190px;
     height: 190px;
 }
 
-section:nth-child(1){
+section:nth-child(3){
     width: 230px;
     height: 230px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hour::before{
+    content: "";
+    width: 8px;
+    height: 80px;
+    background: deeppink;
 }
