@@ -8,7 +8,19 @@ body{
 }
 
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url("../img/clock.png");
     width: 400px;
     height: 400px;
+}
+
+main::before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
 }
