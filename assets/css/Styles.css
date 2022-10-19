@@ -17,6 +17,8 @@ main{
     background: url("../img/clock.png");
     width: 400px;
     height: 400px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #344966, inset 0 0 20px #344966;
 }
 
 main::before{
@@ -80,6 +82,14 @@ div{
 }
 
 p{
-    color: #8d99ae;
-    font-size: 2.5em;
+    color: #344966;
+    font-size: 3em;
+    text-shadow: 0 0 5px #344966;
+}
+
+body>aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
