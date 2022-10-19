@@ -1,3 +1,14 @@
 body{
     background: #000814;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97.5vw;
+    height: 97.5vh;
+}
+
+main{
+    background: url("../img/clock.png");
+    width: 400px;
+    height: 400px;
 }
