@@ -13,4 +13,6 @@ setInterval(() =>{
     hour.css('transform', `rotateZ(${hh + (mm/12)}deg)`);
     minute.css('transform', `rotateZ(${mm}deg)`);
     sec.css('transform', `rotateZ(${ss}deg)`);
+
+    $("p").text(hh/30 +":"+ mm/deg +":"+ ss/deg);
 });
