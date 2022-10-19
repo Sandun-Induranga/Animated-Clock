@@ -24,3 +24,22 @@ main::before{
     height: 15px;
     border-radius: 100%;
 }
+
+section{
+    position: absolute;
+}
+
+section:nth-child(1){
+    width: 160px;
+    height: 160px;
+}
+
+section:nth-child(1){
+    width: 190px;
+    height: 190px;
+}
+
+section:nth-child(1){
+    width: 230px;
+    height: 230px;
+}
